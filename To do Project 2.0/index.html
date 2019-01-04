@@ -9,15 +9,16 @@
     <script>
         function listaTarefas(){
             document.getElementById("add").addEventListener("click",function(){
-                var lista=document.getElementById("listaPronta")
-                var texto=document.getElementById("novaTareva")
-                var li=document.createElement("li")
+                const lista=document.getElementById("listaPronta")
+                const texto=document.getElementById("novaTareva")
+                const li=document.createElement("li")
                 li.textContent=texto.value
                 lista.appendChild(li)
                 texto.value=""
                 texto.focus()
             })
         }
+
 
         window.addEventListener("load", listaTarefas)
     </script>
@@ -27,7 +28,7 @@
     <input type="text" id="novaTareva"><button id="add">Listar</button>
 
     <ol id="listaPronta">
-
+        
     </ol>
 </body>
 </html>
