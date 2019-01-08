@@ -1,0 +1,11 @@
+/* CÓDIGO NAO EXECUTÁVEL
+
+AULA TEÓRICA SOBRE ORIENTAÇÃO OBJETOS
+
+PRINCIPIOS IMPORTANTES DE P.O.O
+1 Abstraçao
+2 Encapsulamento
+3 Herança
+4 Polimorfismo
+
+*/
